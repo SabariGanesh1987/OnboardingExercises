@@ -7,6 +7,11 @@ public class Product {
 	private String prodCategory;
 	private String prodGrade;
 	
+	public Product(String prodName, double prodPrice) {
+		this.prodName = prodName;
+		this.prodPrice = prodPrice;
+	}
+	
 	public Product(String prodName, double prodPrice, String prodCategory, String prodGrade) {
 		super();
 		this.prodName = prodName;
